@@ -1,8 +1,8 @@
 #Simple Docker Node
 
-Simple Node server (with Babel) + Docker image
+Simple Node server (with Babel and Yarn) + Docker image
 
-## Node server
 * Express
 * Babel
-
+* Yarn
+* Docker
