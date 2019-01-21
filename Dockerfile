@@ -6,7 +6,6 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-# RUN yarn install && yarn run build
 RUN yarn install
 
 EXPOSE 3000
