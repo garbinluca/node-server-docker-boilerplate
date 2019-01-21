@@ -1,0 +1,18 @@
+{
+  "name": "simple-docker-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/garbinluca/simple-docker-node.git",
+  "author": "Luca Garbin <hello@lucagarbin.it>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
+}
